@@ -73,7 +73,7 @@ const FilterNavigator = ({
   filtersTitleHtmlTag = 'h5',
   scrollToTop = 'none',
   updateOnFilterSelectionOnMobile = false,
-  showClearByFilterOnMobile,
+  showClearByFilterOnMobile = false,
 }) => {
   const { isMobile } = useDevice()
   const handles = useCssHandles(CSS_HANDLES)
