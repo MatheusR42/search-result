@@ -287,8 +287,8 @@ Check out the [**Product Summary documentation**](https://vtex.io/docs/component
 | `initiallyCollapsed`     | `Boolean` | Makes the search filters start out collapsed (`true`) or open (`false`).                                                                                                                                                                                          | `false`       |
 | `filtersTitleHtmlTag`    | `string`  | HTML tag for the filter's title.                                                                                                                                                                                                                                  | `h5`          |
 | `scrollToTop`            | `enum`    | Scrolls the page to the top (`auto` or `smooth`) or not (`none`) when selecting a facet.                                                                                                                                                                          | `none`        |
-| `fullWidthOnMobile`      | `boolean` | Whether the `filter-navigator.v3` will be rendered on mobile using the screen full width (`true`) or not (`false`).  | `false`       |
-| `navigationTypeOnMobile` | `enum` | Defines how mobile users should navigate on the filter selector component. Possible values are: `page` or `collapsible`. | `page`        |
+| `fullWidthOnMobile`      | `boolean` | Whether the `filter-navigator.v3` will be rendered on mobile using the screen full width (`true`) or not (`false`).                                                                                                                                               | `false`       |
+| `navigationTypeOnMobile` | `enum`    | Defines how mobile users should navigate on the filter selector component. Possible values are: `page` (only one list of options can be seen at a time) or `collapsible` (all lists of options can be seen at the same time ).                                    | `page`        |
 
 -  **`order-by` block**
 
